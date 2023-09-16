@@ -1,0 +1,25 @@
+#include<stdio.h>
+void main()
+{
+    int a,b,c,d;
+    printf("\n Enter 4 numbers");
+    scanf("%d%d%d%d",&a,&b,&c,&d);
+
+    if(a>b && a>c && a>d)
+    {
+        printf("a is greatest");
+
+    }
+    else if(b>c && b>d)
+    {
+        printf("b is greater");
+    }
+    else if(c>d)
+    {
+        print("c is greater");
+
+    }
+    else{
+        printf("d is graeter");
+    }
+}
